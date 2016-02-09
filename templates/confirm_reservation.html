@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+    <link type="text/css" rel="stylesheet" href="confirm_reservation.css"/>
+
+
+</head>
+<body>
+<ul class="topnav">
+    <li><a id="homepage" href="#home">세미나실 예약</a></li>
+    <li><a href="#about">About</a> </li>
+
+    <ul class="topnav right">
+        <li><a  href="#home">Home</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a class="active" href="#my page">My page</a> </li>
+    </ul>
+</ul>
+
+<h1>My Page</h1>
+<h2>예약 확인</h2>
+<table id= "reservation" >
+    <tr>
+        <th>날짜</th>
+        <th>인원수</th>
+        <th>예약 시간</th>
+        <th></th>
+
+    </tr>
+    <tr>
+        <td>2016.02.01</td>
+        <td>4</td>
+        <td>14:30 ~ 16:00</td>
+        <td><button id="cancle">예약취소</button></td>
+    </tr>
+</table>
+<script>
+    document.getElementById("cancle").addEventListener("click", function(){
+        var sure =confirm("정말로 예약을 취소 하시겠습니까?");
+        if(sure===true)
+        {
+            prompt("비밀번호를 입력하세요")
+        }
+
+
+    });
+</script>
+
+</body>
+</html>

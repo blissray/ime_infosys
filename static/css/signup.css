@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+}
+h1{
+    margin: 145px;
+    letter-spacing: 10px;
+
+}
+.summit{
+    margin-left:500px;
+    height: 60px;
+    width: 90px;
+    border: 8px solid bisque;
+    background-color: white;
+    color: brown;
+    border-radius: 15px;
+}
+.summit:hover{
+    background-color: bisque;
+
+}
+.s_n{
+    letter-spacing: 20px;
+}
+.name{
+    letter-spacing: 19px;
+}
+.email{
+
+    margin-right:115px ;
+}
+.pw{
+    margin-right: 95px;
+    letter-spacing: 5px;
+}
+.pw_con{
+    margin-right: 127px;
+}
+.button{
+    margin-left: 30px;
+    background-color: white;
+    border: 2px solid brown;
+    color: brown;
+    border-radius: 6px;
+}
+.button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.box{
+    margin-left: 30px;
+
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:#ffd9cc;}
+
+ul.topnav li a.active {background-color: antiquewhite;}
+
+ul.topnav ul.right {
+    float: right;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav ul.right,
+    ul.topnav li {float: none;}
+}

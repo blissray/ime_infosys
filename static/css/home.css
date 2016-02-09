@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+}
+h1{
+    margin: 145px;
+    color : coral;
+    letter-spacing:10px;
+}
+#red{
+    color: orangered;
+}
+.s_id{
+    letter-spacing: 40px;
+}
+.pw{
+    letter-spacing: 10px;
+}
+#footer{
+    margin: 100px;
+}
+#button{
+    margin: 20px;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+
+}
+#l_b{
+    width: 90px;
+    height: 90px;
+    float:right;
+    margin-right: 650px;
+    margin-top: -100px;
+    background-color : white;
+    border:10px solid bisque;
+    color:brown;
+    border-radius: 20px;
+}
+#l_b:hover , .find:hover ,#button:hover{
+    background-color: bisque;
+}
+
+.find{
+    margin-right: 200px;
+    margin-top: 30px;
+    height: 35px;
+    background-color: antiquewhite;
+    border: 1px solid antiquewhite;
+    color: brown;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:#ffd9cc;}
+
+ul.topnav li a.active {background-color: antiquewhite;}
+
+ul.topnav ul.right {
+    float: right;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav ul.right,
+    ul.topnav li {float: none;}
+}

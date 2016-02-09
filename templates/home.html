@@ -1,0 +1,35 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>세미나실 예약</title>
+    <link type="text/css" rel="stylesheet" href="{% static "css/home.css" %}"/>
+</head>
+<body>
+<ul class="topnav">
+    <li><a id="homepage" href="#home">세미나실 예약</a></li>
+    <li><a href="#about">About</a> </li>
+
+    <ul class="topnav right">
+        <li><a class ="active" href="#home">Home</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#my page">My page</a> </li>
+    </ul>
+</ul>
+<h1>세미나실 예약</h1>
+<div id="login">
+    <h2 class="s_id">학번<input></h2>
+
+
+    <h2 class="pw">비밀번호<input type="password"></h2>
+
+</div>
+<button class="find">비밀번호찾기</button>
+<button id="l_b">로그인</button>
+<div id="footer">
+<p id="red"><em>아직가입안하셨나요?</em><button id="button"><em><u>가입하기</u></em></button></p>
+</div>
+</body>
+</html>
